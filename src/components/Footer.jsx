@@ -4,7 +4,7 @@ const Footer = () => {
       <div>
         <a className="footer-brand" href="#top">
           <img
-            src="assets\logo.png"
+            src={`${import.meta.env.BASE_URL}assets/logo.png`}
             alt="Volvo"
           />
           <strong>Volvo Car Могилёв</strong>

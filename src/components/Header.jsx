@@ -26,7 +26,7 @@ const Header = () => {
       <div className="header-inner">
         <a className="brand" href="#top" aria-label="Volvo Car Могилёв">
           <img
-            src="assets\logo.png"
+            src={`${import.meta.env.BASE_URL}assets/logo.png`}
             alt="Volvo"
           />
           <span>

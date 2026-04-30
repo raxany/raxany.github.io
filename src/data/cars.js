@@ -1,3 +1,5 @@
+const publicAsset = (path) => `${import.meta.env.BASE_URL}${path}`;
+
 export const navigation = [
   { label: 'Модели', href: '#models' },
   { label: 'Сервис', href: '#service' },
@@ -13,8 +15,8 @@ export const cars = [
     description:
       'Городской электрокроссовер с быстрым откликом, чистым скандинавским интерьером и запасом хода для ежедневных маршрутов.',
     shortDescription: 'Компактный электрокроссовер для города и коротких поездок за город.',
-    image: '/assets/cars/volvo-ex30.jpg',
-    modalImage: '/assets/cars/volvo-ex30.jpg',
+    image: publicAsset('assets/cars/volvo-ex30.jpg'),
+    modalImage: publicAsset('assets/cars/volvo-ex30.jpg'),
     price: 'от 34 900 BYN',
     availability: 'В наличии',
     color: 'Onyx Black',
@@ -36,8 +38,8 @@ export const cars = [
     description:
       'Самый универсальный кроссовер Volvo: комфортный каждый день, уверенный на трассе и достаточно просторный для семьи.',
     shortDescription: 'Универсальный кроссовер для семьи, города и дальних поездок.',
-    image: '/assets/cars/volvo-xc60.jpg',
-    modalImage: '/assets/cars/volvo-xc60.jpg',
+    image: publicAsset('assets/cars/volvo-xc60.jpg'),
+    modalImage: publicAsset('assets/cars/volvo-xc60.jpg'),
     price: 'от 39 900 BYN',
     availability: 'В поставке',
     color: 'Vapour Grey',
@@ -59,8 +61,8 @@ export const cars = [
     description:
       'Большой премиальный SUV с тремя рядами сидений, полным приводом и высоким уровнем пассивной и активной безопасности.',
     shortDescription: 'Флагманский SUV для большой семьи, путешествий и статуса.',
-    image: '/assets/cars/volvo-xc90.jpg',
-    modalImage: '/assets/cars/volvo-xc90.jpg',
+    image: publicAsset('assets/cars/volvo-xc90.jpg'),
+    modalImage: publicAsset('assets/cars/volvo-xc90.jpg'),
     price: 'от 59 900 BYN',
     availability: 'Под заказ',
     color: 'Crystal White',
@@ -82,8 +84,8 @@ export const cars = [
     description:
       'Сдержанный седан представительского класса с тихим салоном, гибридной силовой установкой и плавной посадкой.',
     shortDescription: 'Бизнес-седан для тех, кто любит тишину, посадку и длинную базу.',
-    image: '/assets/cars/volvo-s90.jpg',
-    modalImage: '/assets/cars/volvo-s90.jpg',
+    image: publicAsset('assets/cars/volvo-s90.jpg'),
+    modalImage: publicAsset('assets/cars/volvo-s90.jpg'),
     price: 'от 44 900 BYN',
     availability: 'В наличии',
     color: 'Denim Blue',

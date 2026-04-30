@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section id="top" className="hero-section">
-      <img className="hero-image" src="/assets/cars/volvo-xc90.jpg" alt="" aria-hidden="true" />
+      <img className="hero-image" src={`${import.meta.env.BASE_URL}assets/cars/volvo-xc90.jpg`} alt="" aria-hidden="true" />
       <div className="hero-scrim" aria-hidden="true"></div>
       <div className="hero-ambient" aria-hidden="true"></div>
       <div className="hero-rail" aria-hidden="true"></div>
